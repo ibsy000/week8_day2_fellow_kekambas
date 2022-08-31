@@ -7,9 +7,9 @@ export default function Navbar() {
     }
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-gradient" style={bgColor}>
+        <nav className="navbar navbar-expand-lg navbar-light bg-gradient mb-5" style={bgColor}>
             <div className="container-fluid">
-                <Logo width="30" height="24" className="d-inline-block align-text-top me-2"/>
+                <Logo width="42" height="36" className="d-inline-block align-text-top me-2"/>
                 <a className="navbar-brand" href="/">My Fellow Kekambas</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
